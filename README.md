@@ -9,6 +9,7 @@ establishments.json: JSON file containing data of food establishments.
 
 ## Part 1: Database and Jupyter Notebook Set Up
 Steps:
+
 Database Creation and Data Import:
 
 Imported the establishments.json file into a MongoDB database named "uk_food" with a collection named "establishments".
@@ -25,11 +26,15 @@ Assigned the establishments collection to a variable.
 
 ## Part 2: Update the Database
 Steps:
+
 Database Modifications:
 
 Added a new restaurant, "Penang Flavours", to the database with a NewRatingPending status.
+
 Retrieved and updated the BusinessTypeID for "Restaurant/Cafe/Canteen" category.
+
 Removed establishments within the Dover Local Authority.
+
 Data Type Conversion:
 
 Used update_many to convert latitude, longitude, and RatingValue fields to appropriate data types.
@@ -39,8 +44,11 @@ Used update_many to convert latitude, longitude, and RatingValue fields to appro
 ### Questions Explored:
 
 Establishments with hygiene score equal to 20.
+
 Establishments in London with a RatingValue greater than or equal to 4.
+
 Top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to "Penang Flavours".
+
 Number of establishments in each Local Authority area with a hygiene score of 0.
 
 ## References
