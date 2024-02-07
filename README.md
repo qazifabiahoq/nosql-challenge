@@ -4,7 +4,9 @@ This project involves setting up and analyzing a database of food establishments
 
 ## Repository Contents
 NoSQL_setup_starter.ipynb: Jupyter notebook for setting up the MongoDB database and performing initial data manipulation.
+
 NoSQL_analysis_starter.ipynb: Jupyter notebook for exploratory analysis of the database.
+
 establishments.json: JSON file containing data of food establishments.
 
 ## Part 1: Database and Jupyter Notebook Set Up
